@@ -1,4 +1,4 @@
 # AnimationDemo
 Learning Animation
-* Include CoreAnimation UITransitions
+* Include CoreAnimation & UITransitions
 
