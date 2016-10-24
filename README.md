@@ -1,3 +1,4 @@
 # AnimationDemo
 Learning Animation
-local init
+* Include CoreAnimation UITransitions
+
