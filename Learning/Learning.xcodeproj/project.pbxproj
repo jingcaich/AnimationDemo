@@ -12,11 +12,11 @@
 		BDBBE0441DB4A40E00BABF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBBE0431DB4A40E00BABF82 /* Assets.xcassets */; };
 		BDBBE0471DB4A40E00BABF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBBE0451DB4A40E00BABF82 /* LaunchScreen.storyboard */; };
 		BDBBE0501DB4A45500BABF82 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE04F1DB4A45500BABF82 /* MainTableViewController.m */; };
-		BDBBE0861DB710B200BABF82 /* WaveEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0851DB710B200BABF82 /* WaveEffectViewController.m */; };
-		BDBBE0891DB7111A00BABF82 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0881DB7111A00BABF82 /* VCModel.m */; };
 		BDBBE08D1DB750C900BABF82 /* WaveEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE08C1DB750C900BABF82 /* WaveEffectView.m */; };
 		BDBBE0EC1DBF2A5100BABF82 /* MaskLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0EA1DBF2A5100BABF82 /* MaskLayerViewController.m */; };
 		BDBBE0ED1DBF2A5100BABF82 /* MaskLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBBE0EB1DBF2A5100BABF82 /* MaskLayerViewController.xib */; };
+		BDBBE0F11DBF47A900BABF82 /* WaveEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F01DBF47A900BABF82 /* WaveEffectViewController.m */; };
+		BDBBE0F41DBF47B200BABF82 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F31DBF47B200BABF82 /* VCModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,16 +29,16 @@
 		BDBBE0481DB4A40E00BABF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBBE04E1DB4A45500BABF82 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		BDBBE04F1DB4A45500BABF82 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		BDBBE0841DB710B100BABF82 /* WaveEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaveEffectViewController.h; path = ../WaveEffectViewController.h; sourceTree = "<group>"; };
-		BDBBE0851DB710B200BABF82 /* WaveEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaveEffectViewController.m; path = ../WaveEffectViewController.m; sourceTree = "<group>"; };
-		BDBBE0871DB7111A00BABF82 /* VCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCModel.h; path = ../VCModel.h; sourceTree = "<group>"; };
-		BDBBE0881DB7111A00BABF82 /* VCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCModel.m; path = ../VCModel.m; sourceTree = "<group>"; };
 		BDBBE08B1DB750C900BABF82 /* WaveEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveEffectView.h; sourceTree = "<group>"; };
 		BDBBE08C1DB750C900BABF82 /* WaveEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveEffectView.m; sourceTree = "<group>"; };
 		BDBBE0E91DBF2A5100BABF82 /* MaskLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerViewController.h; sourceTree = "<group>"; };
 		BDBBE0EA1DBF2A5100BABF82 /* MaskLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerViewController.m; sourceTree = "<group>"; };
 		BDBBE0EB1DBF2A5100BABF82 /* MaskLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskLayerViewController.xib; sourceTree = "<group>"; };
 		BDBBE0EE1DBF313800BABF82 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BDBBE0EF1DBF47A900BABF82 /* WaveEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveEffectViewController.h; sourceTree = "<group>"; };
+		BDBBE0F01DBF47A900BABF82 /* WaveEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveEffectViewController.m; sourceTree = "<group>"; };
+		BDBBE0F21DBF47B200BABF82 /* VCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCModel.h; sourceTree = "<group>"; };
+		BDBBE0F31DBF47B200BABF82 /* VCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 		BDBBE08F1DBDA51C00BABF82 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BDBBE0841DB710B100BABF82 /* WaveEffectViewController.h */,
-				BDBBE0851DB710B200BABF82 /* WaveEffectViewController.m */,
+				BDBBE0EF1DBF47A900BABF82 /* WaveEffectViewController.h */,
+				BDBBE0F01DBF47A900BABF82 /* WaveEffectViewController.m */,
 				BDBBE0E91DBF2A5100BABF82 /* MaskLayerViewController.h */,
 				BDBBE0EA1DBF2A5100BABF82 /* MaskLayerViewController.m */,
 				BDBBE0EB1DBF2A5100BABF82 /* MaskLayerViewController.xib */,
@@ -120,8 +120,8 @@
 		BDBBE0901DBDA51C00BABF82 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BDBBE0871DB7111A00BABF82 /* VCModel.h */,
-				BDBBE0881DB7111A00BABF82 /* VCModel.m */,
+				BDBBE0F21DBF47B200BABF82 /* VCModel.h */,
+				BDBBE0F31DBF47B200BABF82 /* VCModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,12 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBBE0EC1DBF2A5100BABF82 /* MaskLayerViewController.m in Sources */,
-				BDBBE0861DB710B200BABF82 /* WaveEffectViewController.m in Sources */,
 				BDBBE0501DB4A45500BABF82 /* MainTableViewController.m in Sources */,
 				BDBBE08D1DB750C900BABF82 /* WaveEffectView.m in Sources */,
+				BDBBE0F41DBF47B200BABF82 /* VCModel.m in Sources */,
 				BDBBE03C1DB4A40E00BABF82 /* AppDelegate.m in Sources */,
+				BDBBE0F11DBF47A900BABF82 /* WaveEffectViewController.m in Sources */,
 				BDBBE0391DB4A40E00BABF82 /* main.m in Sources */,
-				BDBBE0891DB7111A00BABF82 /* VCModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
