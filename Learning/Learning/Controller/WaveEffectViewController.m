@@ -14,7 +14,7 @@
 @end
 
 @implementation WaveEffectViewController
-
+// 自己点击
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor whiteColor];

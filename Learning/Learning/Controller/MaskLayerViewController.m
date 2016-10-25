@@ -14,7 +14,7 @@
 @end
 
 @implementation MaskLayerViewController
-
+// viewDidLoad中 self.view.frame 并没有加载完全(模拟器的测试)
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];

@@ -22,10 +22,12 @@ static NSString *const identifier = @"identifier";
     self.title = @"菜单";
     self.view.backgroundColor = [UIColor whiteColor];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:identifier];
+    
     VCModel *model1 = [VCModel VCModelWithTitle:@"声波效果" VCName:@"WaveEffectViewController"];
-    //MaskLayerViewController
-    VCModel *model2 = [VCModel VCModelWithTitle:@"了解Layer的mask属性" VCName:@"MaskLayerViewController"];
-    _dataSource = @[model1,model2];
+    //MaskLayerViewController CAGradientLayerViewController
+    VCModel *model2 = [VCModel VCModelWithTitle:@"Layer的mask属性" VCName:@"MaskLayerViewController"];
+    VCModel *model3 = [VCModel VCModelWithTitle:@"CAGradientLayer" VCName:@"CAGradientLayerViewController"];
+    _dataSource = @[model1,model2,model3];
     self.navigationController.delegate = self;
 }
 

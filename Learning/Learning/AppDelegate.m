@@ -19,6 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     MainTableViewController *vc = [[MainTableViewController alloc] init];
     UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    navi.navigationBar.translucent = YES;
+    [navi.navigationBar setBackgroundColor:COLOR_HEX(0x000000, 0)];
+    [navi.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    navi.navigationBar.shadowImage = [UIImage new];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];

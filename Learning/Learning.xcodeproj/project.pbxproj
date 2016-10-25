@@ -17,6 +17,7 @@
 		BDBBE0ED1DBF2A5100BABF82 /* MaskLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBBE0EB1DBF2A5100BABF82 /* MaskLayerViewController.xib */; };
 		BDBBE0F11DBF47A900BABF82 /* WaveEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F01DBF47A900BABF82 /* WaveEffectViewController.m */; };
 		BDBBE0F41DBF47B200BABF82 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F31DBF47B200BABF82 /* VCModel.m */; };
+		BDBBE0F71DBF4A1900BABF82 /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		BDBBE0F01DBF47A900BABF82 /* WaveEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveEffectViewController.m; sourceTree = "<group>"; };
 		BDBBE0F21DBF47B200BABF82 /* VCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCModel.h; sourceTree = "<group>"; };
 		BDBBE0F31DBF47B200BABF82 /* VCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCModel.m; sourceTree = "<group>"; };
+		BDBBE0F51DBF4A1900BABF82 /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				BDBBE0E91DBF2A5100BABF82 /* MaskLayerViewController.h */,
 				BDBBE0EA1DBF2A5100BABF82 /* MaskLayerViewController.m */,
 				BDBBE0EB1DBF2A5100BABF82 /* MaskLayerViewController.xib */,
+				BDBBE0F51DBF4A1900BABF82 /* CAGradientLayerViewController.h */,
+				BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBBE0F71DBF4A1900BABF82 /* CAGradientLayerViewController.m in Sources */,
 				BDBBE0EC1DBF2A5100BABF82 /* MaskLayerViewController.m in Sources */,
 				BDBBE0501DB4A45500BABF82 /* MainTableViewController.m in Sources */,
 				BDBBE08D1DB750C900BABF82 /* WaveEffectView.m in Sources */,
