@@ -24,10 +24,11 @@ static NSString *const identifier = @"identifier";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:identifier];
     
     VCModel *model1 = [VCModel VCModelWithTitle:@"声波效果" VCName:@"WaveEffectViewController"];
-    //MaskLayerViewController CAGradientLayerViewController
+    //MaskLayerViewController CAGradientLayerViewController CAReplicatorLayerViewController
     VCModel *model2 = [VCModel VCModelWithTitle:@"Layer的mask属性" VCName:@"MaskLayerViewController"];
     VCModel *model3 = [VCModel VCModelWithTitle:@"CAGradientLayer" VCName:@"CAGradientLayerViewController"];
-    _dataSource = @[model1,model2,model3];
+    VCModel *model4 = [VCModel VCModelWithTitle:@"CARepplcatorLayer" VCName:@"CAReplicatorLayerViewController"];
+    _dataSource = @[model1,model2,model3,model4];
     self.navigationController.delegate = self;
 }
 

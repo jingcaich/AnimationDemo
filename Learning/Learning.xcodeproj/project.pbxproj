@@ -18,6 +18,7 @@
 		BDBBE0F11DBF47A900BABF82 /* WaveEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F01DBF47A900BABF82 /* WaveEffectViewController.m */; };
 		BDBBE0F41DBF47B200BABF82 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F31DBF47B200BABF82 /* VCModel.m */; };
 		BDBBE0F71DBF4A1900BABF82 /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */; };
+		BDBBE0FA1DC08D2D00BABF82 /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0F91DC08D2D00BABF82 /* CAReplicatorLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		BDBBE0F31DBF47B200BABF82 /* VCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCModel.m; sourceTree = "<group>"; };
 		BDBBE0F51DBF4A1900BABF82 /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
 		BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		BDBBE0F81DC08D2D00BABF82 /* CAReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		BDBBE0F91DC08D2D00BABF82 /* CAReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				BDBBE0EB1DBF2A5100BABF82 /* MaskLayerViewController.xib */,
 				BDBBE0F51DBF4A1900BABF82 /* CAGradientLayerViewController.h */,
 				BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */,
+				BDBBE0F81DC08D2D00BABF82 /* CAReplicatorLayerViewController.h */,
+				BDBBE0F91DC08D2D00BABF82 /* CAReplicatorLayerViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 				BDBBE03C1DB4A40E00BABF82 /* AppDelegate.m in Sources */,
 				BDBBE0F11DBF47A900BABF82 /* WaveEffectViewController.m in Sources */,
 				BDBBE0391DB4A40E00BABF82 /* main.m in Sources */,
+				BDBBE0FA1DC08D2D00BABF82 /* CAReplicatorLayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

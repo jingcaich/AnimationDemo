@@ -47,7 +47,7 @@
     [self.layer removeAllAnimations];
     CAShapeLayer *clickCicrleLayer = [CAShapeLayer layer];
     clickCicrleLayer.frame = CGRectMake(self.bounds.size.width/2, self.bounds.size.height/2, 5, 5);
-    clickCicrleLayer.fillColor = [UIColor whiteColor].CGColor;
+    clickCicrleLayer.fillColor = [UIColor blackColor].CGColor;
     // 使用半径0 会造成动画有缺角
     clickCicrleLayer.path = [self drawclickCircleBezierPath:0.001].CGPath;
     clickCicrleLayer.lineJoin = @"bevel";
@@ -69,7 +69,7 @@
 -(void)clickNextAnimation{
     //圆形变圆弧
     _clickCicrleLayer.fillColor = [UIColor clearColor].CGColor;
-    _clickCicrleLayer.strokeColor = [UIColor whiteColor].CGColor;
+    _clickCicrleLayer.strokeColor = [UIColor blackColor].CGColor;
     _clickCicrleLayer.lineWidth = 10; // 额外增添10的width
     
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
@@ -136,7 +136,7 @@
     //左边圆弧
     [bezierPath addArcWithCenter:CGPointMake(left, self.bounds.size.height/2) radius:radius startAngle:M_PI/2 endAngle:-M_PI/2 clockwise:YES];
     //闭合弧线
-//    [bezierPath closePath];
+    [bezierPath closePath];
     
     return bezierPath;
 }
@@ -154,10 +154,10 @@
     UIBezierPath *bezierPath = [UIBezierPath bezierPath];
     /**
      *  center: 弧线中心点的坐标
-     radius: 弧线所在圆的半径
-     startAngle: 弧线开始的角度值
-     endAngle: 弧线结束的角度值
-     clockwise: 是否顺时针画弧线
+        radius: 弧线所在圆的半径
+        startAngle: 弧线开始的角度值
+        endAngle: 弧线结束的角度值
+        clockwise: 是否顺时针画弧线
      *
      */
     [bezierPath addArcWithCenter:CGPointMake(0,0) radius:radius startAngle:0 endAngle:M_PI*2 clockwise:YES];
