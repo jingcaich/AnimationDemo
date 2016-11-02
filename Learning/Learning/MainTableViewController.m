@@ -28,7 +28,9 @@ static NSString *const identifier = @"identifier";
     VCModel *model2 = [VCModel VCModelWithTitle:@"Layer的mask属性" VCName:@"MaskLayerViewController"];
     VCModel *model3 = [VCModel VCModelWithTitle:@"CAGradientLayer" VCName:@"CAGradientLayerViewController"];
     VCModel *model4 = [VCModel VCModelWithTitle:@"CARepplcatorLayer" VCName:@"CAReplicatorLayerViewController"];
-    _dataSource = @[model1,model2,model3,model4];
+    //UIViewTransitionViewController
+    VCModel *model5 = [VCModel VCModelWithTitle:@"UIViewTransition" VCName:@"UIViewTransitionViewController"];
+    _dataSource = @[model1,model2,model3,model4,model5];
     self.navigationController.delegate = self;
 }
 

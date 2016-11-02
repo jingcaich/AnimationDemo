@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD38F1551DC9799600C2A106 /* UIViewTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F1541DC9799600C2A106 /* UIViewTransitionViewController.m */; };
+		BD38F1581DC979E200C2A106 /* XView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F1571DC979E200C2A106 /* XView.m */; };
+		BD38F15B1DC97A5200C2A106 /* CJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F15A1DC97A5200C2A106 /* CJTimer.m */; };
+		BD38F1611DC97A8300C2A106 /* UIButton+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F15E1DC97A8300C2A106 /* UIButton+CJ.m */; };
+		BD38F1621DC97A8300C2A106 /* UILabel+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F1601DC97A8300C2A106 /* UILabel+CJ.m */; };
+		BD38F1651DC97A9700C2A106 /* UIView+PYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38F1641DC97A9700C2A106 /* UIView+PYFrame.m */; };
 		BDBBE0391DB4A40E00BABF82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE0381DB4A40E00BABF82 /* main.m */; };
 		BDBBE03C1DB4A40E00BABF82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBE03B1DB4A40E00BABF82 /* AppDelegate.m */; };
 		BDBBE0441DB4A40E00BABF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBBE0431DB4A40E00BABF82 /* Assets.xcassets */; };
@@ -22,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD38F1531DC9799600C2A106 /* UIViewTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTransitionViewController.h; sourceTree = "<group>"; };
+		BD38F1541DC9799600C2A106 /* UIViewTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTransitionViewController.m; sourceTree = "<group>"; };
+		BD38F1561DC979E200C2A106 /* XView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XView.h; sourceTree = "<group>"; };
+		BD38F1571DC979E200C2A106 /* XView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XView.m; sourceTree = "<group>"; };
+		BD38F1591DC97A5200C2A106 /* CJTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJTimer.h; sourceTree = "<group>"; };
+		BD38F15A1DC97A5200C2A106 /* CJTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJTimer.m; sourceTree = "<group>"; };
+		BD38F15D1DC97A8300C2A106 /* UIButton+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CJ.h"; sourceTree = "<group>"; };
+		BD38F15E1DC97A8300C2A106 /* UIButton+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CJ.m"; sourceTree = "<group>"; };
+		BD38F15F1DC97A8300C2A106 /* UILabel+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CJ.h"; sourceTree = "<group>"; };
+		BD38F1601DC97A8300C2A106 /* UILabel+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CJ.m"; sourceTree = "<group>"; };
+		BD38F1631DC97A9700C2A106 /* UIView+PYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYFrame.h"; sourceTree = "<group>"; };
+		BD38F1641DC97A9700C2A106 /* UIView+PYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYFrame.m"; sourceTree = "<group>"; };
 		BDBBE0341DB4A40E00BABF82 /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBBE0381DB4A40E00BABF82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDBBE03A1DB4A40E00BABF82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD38F15C1DC97A7100C2A106 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BD38F1631DC97A9700C2A106 /* UIView+PYFrame.h */,
+				BD38F1641DC97A9700C2A106 /* UIView+PYFrame.m */,
+				BD38F15D1DC97A8300C2A106 /* UIButton+CJ.h */,
+				BD38F15E1DC97A8300C2A106 /* UIButton+CJ.m */,
+				BD38F15F1DC97A8300C2A106 /* UILabel+CJ.h */,
+				BD38F1601DC97A8300C2A106 /* UILabel+CJ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		BDBBE02B1DB4A40E00BABF82 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +108,7 @@
 		BDBBE0361DB4A40E00BABF82 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				BD38F15C1DC97A7100C2A106 /* Category */,
 				BDBBE08F1DBDA51C00BABF82 /* Controller */,
 				BDBBE0901DBDA51C00BABF82 /* Model */,
 				BDBBE0911DBDA51C00BABF82 /* Tool */,
@@ -105,6 +137,8 @@
 		BDBBE08A1DB750A900BABF82 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				BD38F1561DC979E200C2A106 /* XView.h */,
+				BD38F1571DC979E200C2A106 /* XView.m */,
 				BDBBE08B1DB750C900BABF82 /* WaveEffectView.h */,
 				BDBBE08C1DB750C900BABF82 /* WaveEffectView.m */,
 			);
@@ -123,6 +157,8 @@
 				BDBBE0F61DBF4A1900BABF82 /* CAGradientLayerViewController.m */,
 				BDBBE0F81DC08D2D00BABF82 /* CAReplicatorLayerViewController.h */,
 				BDBBE0F91DC08D2D00BABF82 /* CAReplicatorLayerViewController.m */,
+				BD38F1531DC9799600C2A106 /* UIViewTransitionViewController.h */,
+				BD38F1541DC9799600C2A106 /* UIViewTransitionViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,6 +175,8 @@
 		BDBBE0911DBDA51C00BABF82 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				BD38F1591DC97A5200C2A106 /* CJTimer.h */,
+				BD38F15A1DC97A5200C2A106 /* CJTimer.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -214,13 +252,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD38F1551DC9799600C2A106 /* UIViewTransitionViewController.m in Sources */,
+				BD38F1651DC97A9700C2A106 /* UIView+PYFrame.m in Sources */,
+				BD38F1611DC97A8300C2A106 /* UIButton+CJ.m in Sources */,
 				BDBBE0F71DBF4A1900BABF82 /* CAGradientLayerViewController.m in Sources */,
+				BD38F15B1DC97A5200C2A106 /* CJTimer.m in Sources */,
 				BDBBE0EC1DBF2A5100BABF82 /* MaskLayerViewController.m in Sources */,
+				BD38F1621DC97A8300C2A106 /* UILabel+CJ.m in Sources */,
 				BDBBE0501DB4A45500BABF82 /* MainTableViewController.m in Sources */,
 				BDBBE08D1DB750C900BABF82 /* WaveEffectView.m in Sources */,
 				BDBBE0F41DBF47B200BABF82 /* VCModel.m in Sources */,
 				BDBBE03C1DB4A40E00BABF82 /* AppDelegate.m in Sources */,
 				BDBBE0F11DBF47A900BABF82 /* WaveEffectViewController.m in Sources */,
+				BD38F1581DC979E200C2A106 /* XView.m in Sources */,
 				BDBBE0391DB4A40E00BABF82 /* main.m in Sources */,
 				BDBBE0FA1DC08D2D00BABF82 /* CAReplicatorLayerViewController.m in Sources */,
 			);

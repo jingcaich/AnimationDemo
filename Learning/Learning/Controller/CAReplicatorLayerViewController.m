@@ -15,7 +15,7 @@
 @property (nonatomic, strong) CAReplicatorLayer *replicatorLayer;
 
 @end
-// www.raywenderlich.com
+
 @implementation CAReplicatorLayerViewController
 
 - (void)viewDidLoad {
@@ -27,7 +27,6 @@
 //    [self p_addAnimation3];
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
 }
 
 - (void)p_addAnimation3{
@@ -36,15 +35,7 @@
     _replicatorLayer.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.75].CGColor;
     _replicatorLayer.position = self.view.center;
     [self.view.layer addSublayer:_replicatorLayer];
-//    dot.bounds = CGRect(x: 0.0, y: 0.0, width: 10.0, height: 10.0)
-//    dot.backgroundColor = UIColor(white: 0.8, alpha: 1.0).CGColor
-//    dot.borderColor = UIColor(white: 1.0, alpha: 1.0).CGColor
-//    dot.borderWidth = 1.0
-//    dot.cornerRadius = 5.0
-//    dot.shouldRasterize = true
-//    dot.rasterizationScale = UIScreen.mainScreen().scale
-//    
-//    r.addSublayer(dot)
+
     CALayer *dot = [CALayer layer];
     dot.bounds = CGRectMake(0, 0, 10, 10);
     dot.backgroundColor = [UIColor colorWithRed:0.8 green:0.8 blue:0.8 alpha:0.75].CGColor;
@@ -52,6 +43,7 @@
     dot.borderWidth = 1.0;
     dot.cornerRadius = 5.0;
     dot.shouldRasterize = YES;
+    
     dot.rasterizationScale = [UIScreen mainScreen].scale;
     
     [_replicatorLayer addSublayer:dot];
