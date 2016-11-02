@@ -26,6 +26,7 @@ static NSInteger i = 0;
 
 NSInteger x = 0;
 NSInteger y = 0;
+static const NSTimeInterval duration = 1.0;
 
 @implementation UIViewTransitionViewController
 
@@ -49,13 +50,13 @@ NSInteger y = 0;
 - (void)animationAction{
     // options里面有各种动画组合
     if (i % 2 ==0) {
-        [UIView transitionFromView:self.firstView toView:self.secondView duration:3.0 options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
+        [UIView transitionFromView:self.firstView toView:self.secondView duration:duration options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
             self.btn.userInteractionEnabled = finished;
             finished ? i++:i;
         }];
     }else
         
-        [UIView transitionFromView:self.secondView toView:self.firstView duration:3.0 options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
+        [UIView transitionFromView:self.secondView toView:self.firstView duration:duration options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
             self.btn.userInteractionEnabled = finished;
             finished ? i++:i;
     }];
